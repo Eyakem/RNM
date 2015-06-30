@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="FaultRepair.Domain.Model.WorkOrder" Collapsed="true">
+    <Position X="6.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\WorkOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaultRepair.Domain.Model.WorkOrderRoles">
+    <Position X="4.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\WorkOrderRoles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaultRepair.Domain.Services.RepairService">
+    <Position X="0.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>Services\RepairService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="FaultRepair.Domain.Interface.FactoryInterface.IWorkOrderFactory">
+    <Position X="2.75" Y="6" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\FactoryInterface\IWorkOrderFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="System.Security.Principal.IPrincipal" Collapsed="true">
+    <Position X="4.75" Y="6" Width="1.5" />
+    <TypeIdentifier />
+  </Interface>
+  <Enum Name="FaultRepair.Domain.Model.WorkOrderStatus" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\WorkOrderStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
